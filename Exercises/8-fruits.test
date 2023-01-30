@@ -1,0 +1,29 @@
+({
+  name: 'fruits',
+  length: [300, 600],
+  cases: [
+    [
+      {
+        viktor: ['apple', 'grape', 'orange', 'apple', 'banana'],
+        kate: ['apple', 'grape', 'orange', 'grape', 'banana'],
+      },
+      {
+        viktor: {apple: 2, grape: 1, orange: 1, banana: 1},
+        kate: {apple: 1, grape: 2, orange: 1, apple: 1, banana: 1}
+      }
+    ],
+    [
+      {
+        alice: ['grape', 'grape', 'orange', 'apple', 'apple'],
+        iherasymov: ['apple', 'orange', 'orange', 'grape', 'banana'],
+      },
+      {
+        alice: {grape: 2, orange: 1, apple: 2},
+        iherasymov: {apple: 1, orange: 2, grape: 1, banana: 1}
+      }
+    ]
+  ],
+  test: fruits => {
+    const src = fruits.toString();
+  }
+})

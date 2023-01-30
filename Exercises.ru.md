@@ -45,3 +45,21 @@ console.log(ages(persons));
 //   hirohito: 88,
 // }
 ```
+
+## Итерирование в объектах и массивах
+
+8. При помощи циклов перебрать объект и подсчитать количество фруктов
+в массивах. Например:
+```js
+const obj = {
+  viktor: ["apple", "grape", "orange", "apple", "banana"],
+  kate: ["apple", "grape", "orange", "grape", "banana"],
+};
+
+console.log(fruits(obj));
+// fruits(obj) должна вернуть
+// {
+//    viktor: {apple: 2, grape: 1, orange: 1, banana: 1},
+//    kate: {apple: 1, grape: 2, orange: 1, apple: 1, banana: 1}
+// }
+```
